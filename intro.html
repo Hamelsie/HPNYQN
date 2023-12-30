@@ -227,11 +227,13 @@
             <i class="fa-solid fa-xmark"></i>
         </div>
     </div>
-
-    <audio id="song"autoplay>
-        <source src="image/nhac.mp3" type="audio/mp3">
-    </audio>
-
+<audio id="song" autoplay>
+    <source src="image/nhac.mp3" type="audio/mp3">
+</audio>
+<script>
+    var audio = document.getElementById("song");
+    audio.playbackRate = 1.5; // Chỉnh tốc độ lên 1.5
+</script>
 <script src="intro.js"></script>
 </body>
 </html>
